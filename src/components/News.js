@@ -32,7 +32,7 @@ const News = ({
       <div className='row'>
         <div className='column'>
           <div className='card'>
-            <img src={urlToImage === null ? url : urlToImage} alt='photo' />
+            <img src={urlToImage === null ? url : urlToImage} alt='slika' />
             <p>
               {readMore ? description : `${description.substring(0, 30)}...`}
               <button onClick={() => setReadMore(!readMore)} className='news'>
